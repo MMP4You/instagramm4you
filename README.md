@@ -34,5 +34,10 @@ is logged in the console.
 
 For more needed parameters you can expand the API questions at the place where you enter the API key.
 
+For the detail Typo3 backend setup please have a look at the file 
+FurtherReading.pdf .
+
+Have fun with the extension.
+
 This extension is maintained by Markus Müllenborn-Pitzen and was created for 4you Promotion GmbH in Münchenreuther Str. 31, 95652 .
 https://www.4you-werbeagentur.de/
