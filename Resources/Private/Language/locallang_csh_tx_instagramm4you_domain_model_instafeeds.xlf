@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:instagramm4you/Resources/Private/Language/locallang_csh_tx_instagramm4you_domain_model_instafeeds.xlf" date="2022-12-13T10:09:30Z" product-name="instagramm4you">
+		<header/>
+		<body>
+			<trans-unit id="accestoken.description" resname="accestoken.description">
+				<source>accestoken</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,47 @@
+{
+    "name": "instagramm4you/instagramm4you",
+    "type": "typo3-cms-extension",
+    "description": "L\u00e4dt Instagram Beitr\u00e4ge anhand eines Acces Tokens",
+    "authors": [
+        {
+            "name": "Markus M\u00fcllenborn-Pitzen",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^6.9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Instagramm4You\\Instagramm4you\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Instagramm4You\\Instagramm4you\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/instagramm4you": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+        ]
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/public",
+            "extension-key": "instagramm4you"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    119,
+                    114
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": true,
+                    "_default1_list": false,
+                    "_default2_show": true,
+                    "_default3_new_create": false,
+                    "_default4_edit_update": false,
+                    "_default5_delete": false,
+                    "customActions": []
+                },
+                "name": "InstaFeeds",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Instagram",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1357612325617"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "accestoken",
+                            "propertyType": "Text",
+                            "uid": "1250143363848"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "L\u00e4dt Instagram Beitr\u00e4ge anhand eines Acces Tokens",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "instagramm4you",
+        "name": "Instagramm4You",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "4You Promotion GmbH",
+                "email": "",
+                "name": "Markus M\u00fcllenborn-Pitzen",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "InstagramStdFE",
+                "key": "instagramfe",
+                "name": "instagramfe"
+            }
+        ],
+        "vendorName": "Instagramm4You"
+    },
+    "wires": [],
+    "storagePath": "\/home\/www\/p619435\/html\/typo3\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2022-12-13 10:09",
+        "extension_builder_version": "11.0.3",
+        "be_user": " (1)"
+    }
+}

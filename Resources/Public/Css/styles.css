@@ -1,0 +1,50 @@
+.fimg{
+    width: 200px;
+    height:200px;
+    background-image: url("/fileadmin/images/Image_Platzhalter.png");
+    background-size: cover;
+    padding:10px;
+}
+.fimg img{
+    max-width: 100%;
+    width: 200px;
+    height: 100%;
+    color:white;
+
+}
+
+
+
+.instreadmore{
+    color:#D30132;
+    padding-top:5px;
+}
+
+.instreadmore:hover{
+    cursor:pointer;
+}
+
+.followinst{
+    text-align: center;
+}
+
+#instacont{
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.followinst span a{
+    color: #D30132;
+    border: 1px solid #D30132;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.followinst span a:hover{
+    text-decoration: none;
+}

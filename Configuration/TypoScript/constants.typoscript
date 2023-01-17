@@ -1,0 +1,14 @@
+plugin.tx_instagramm4you_instagramfe {
+    view {
+        # cat=plugin.tx_instagramm4you_instagramfe/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:instagramm4you/Resources/Private/Templates/
+        # cat=plugin.tx_instagramm4you_instagramfe/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:instagramm4you/Resources/Private/Partials/
+        # cat=plugin.tx_instagramm4you_instagramfe/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:instagramm4you/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_instagramm4you_instagramfe//a; type=string; label=Default storage PID
+        storagePid =32
+    }
+}

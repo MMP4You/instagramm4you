@@ -1,0 +1,42 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        InstaFeeds:
+          Index.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="HeaderAssets">
+    <link rel="stylesheet" href="{f:uri.resource(path: 'Css/styles.css')}"/>
+    <script type="text/javascript" src="{f:uri.resource(path: 'JavaScript/inst.js')}"></script>
+    <script type="text/javascript" src="{f:uri.resource(path: 'JavaScript/vanilla.js')}"></script>
+</f:section>
+
+<f:section name="content">
+
+
+    <f:flashMessages />
+
+
+        <f:for each="{instaFeeds}" as="instaFeeds">
+
+          <!-- <f:link.action action="show" arguments="{instaFeeds : instaFeeds}">{instaFeeds.accestoken}</f:link.action> -->
+
+           <p id="token-get" data-token="{instaFeeds.accestoken}"></p>
+
+         </f:for>
+
+    <!--<p class="instmoreread">Mehr Informationen</p>-->
+
+    <div id="instacont" class="row"></div>
+<p class="followinst"><span><a href="#">Folge auf Instagram</a></span></p>
+
+ </f:section>
+ </html>

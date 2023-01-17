@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:instagramm4you/Resources/Private/Language/locallang_db.xlf" date="2022-12-13T10:09:30Z" product-name="instagramm4you">
+		<header/>
+		<body>
+			<trans-unit id="tx_instagramm4you_domain_model_instafeeds" resname="tx_instagramm4you_domain_model_instafeeds">
+				<source>Insta Feeds</source>
+			</trans-unit>
+			<trans-unit id="tx_instagramm4you_domain_model_instafeeds.accestoken" resname="tx_instagramm4you_domain_model_instafeeds.accestoken">
+				<source>Accestoken</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
